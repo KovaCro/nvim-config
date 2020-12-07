@@ -16,5 +16,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'preservim/nerdtree'
     " Theme
     Plug 'joshdick/onedark.vim'
+    " Shows mappings
+    Plug 'liuchengxu/vim-which-key'
+    " Undo tree
+    Plug 'mbbill/undotree'
+    " Move marked text
+    Plug 'matze/vim-move'
+    " Easy text selection
+    Plug 'terryma/vim-expand-region'
 
 call plug#end()
